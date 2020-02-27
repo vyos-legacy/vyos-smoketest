@@ -14,8 +14,12 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import unittest
+
 from base_interfaces_test import BasicInterfaceTest
+
 from vyos.interfaces import list_interfaces_of_type
+from vyos.configsession import ConfigSessionError
 
 class BondingInterfaceTest(BasicInterfaceTest.BaseTest):
     def setUp(self):
