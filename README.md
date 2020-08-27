@@ -1,3 +1,6 @@
+
+**NOTE** repository merged into vyos-1x
+
 vyos-smoketest
 ==============
 
